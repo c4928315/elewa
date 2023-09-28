@@ -6,18 +6,29 @@ input {
 
 .input-score-min {
     text-align: center;
+    color:  rgba(128, 128, 128, 0.3);
 }
 
 .input-score-max {
     text-align: end;
+    color:  rgba(128, 128, 128, 0.3);
 }
 
 .option {
-    border: solid 1px grey;
+    border: none;
+    border-bottom: solid 1px rgba(128, 128, 128, 0.3);
     display: flex;
     justify-content: space-between;
 }
 
 #dash {
     text-align: end;
+    color:  rgba(128, 128, 128, 0.3);
 }
+
+.assess-label{
+    color: rgba(128, 128, 128, 0.3);
+    font-weight: 300;
+    font-size: 0.9em;
+}
+
